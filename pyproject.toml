@@ -1,0 +1,18 @@
+[project]
+name = "zonesetinel"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bokeh>=3.7.3",
+    "numpy==2.2.0",
+    "scikit-image>=0.25.2",
+    "scikit-learn>=1.7.1",
+    "umap-learn>=0.5.9.post2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.0",
+]
