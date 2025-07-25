@@ -9,4 +9,6 @@ wheels/
 # Virtual environments
 .venv
 data/
+data
 vehicle_patches/
+vehicle_patches_bk/

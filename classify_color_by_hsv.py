@@ -6,8 +6,8 @@ from collections import Counter
 
 # Patch and output path
 PATCH_DIR = Path("vehicle_patches")
-META_PATH = PATCH_DIR / "vehicle_meta.csv"
-OUT_CSV = PATCH_DIR / "vehicle_color_labeled.csv"
+META_PATH = "vehicle_meta.csv"
+OUT_CSV = "vehicle_color_labeled.csv"
 
 # Load metadata
 df = pd.read_csv(META_PATH)
